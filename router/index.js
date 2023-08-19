@@ -17,6 +17,7 @@ router.post('/add-income', saveIncome);
 router.get('/history', getExpensesHistory);
 
 router.get('/analysis', getExpensesAmounts);
+
 router.post('/analysis-new', saveData);
 
 
